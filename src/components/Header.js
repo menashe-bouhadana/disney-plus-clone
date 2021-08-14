@@ -1,15 +1,14 @@
 import styled from "styled-components";
 import {provider, auth} from "../firebase";
 import { useDispatch, useSelector } from "react-redux";
-import { useHistory } from "react-router-dom";
-import {selectUserName, selectUserEmail, selectUserPhoto, setUserLoginDetails} from "../features/users/userSlice";
+// import { useHistory } from "react-router-dom";
+import {selectUserName, selectUserPhoto, setUserLoginDetails} from "../features/users/userSlice";
 
 const Header = (props) => {
 
     const dispatch = useDispatch();
-    const history = useHistory();
+    // const history = useHistory();
     const username = useSelector(selectUserName);
-    const userEmail = useSelector(selectUserEmail);
     const userPhoto = useSelector(selectUserPhoto);
 
     const handleAuth = () => {
