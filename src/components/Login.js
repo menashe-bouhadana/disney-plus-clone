@@ -103,6 +103,7 @@ const SignUp = styled.a`
   border-radius: 4px;
   width:100%;
   transition: background-color .2s ease-out;
+  cursor: pointer;
   
   &:hover {
     background-color: #0483ee;

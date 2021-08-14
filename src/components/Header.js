@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const Header = (props) => {
+
     return(
         <Nav>
             <Logo>
@@ -39,6 +40,10 @@ const Header = (props) => {
                 </a>
 
             </NavMenu>
+
+            <LoginButton>
+                LOGIN
+            </LoginButton>
         </Nav>
     );
 };
@@ -135,6 +140,21 @@ const NavMenu = styled.div`
     display: none;
   }
   
+`
+
+const LoginButton = styled.a`
+  background-color: transparent;
+  border:1px solid #f9f9f9;
+  color:#f9f9f9;
+  padding:8px;
+  border-radius: 4px;
+  transition: all .3s ease-out;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: #f9f9f9;
+    color:#040714;
+  }
 `
 
 export default Header;
