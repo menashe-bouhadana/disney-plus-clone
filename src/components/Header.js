@@ -19,6 +19,7 @@ const Header = (props) => {
                 history.push("/home");
             }
         });
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [username]);
 
     const handleAuth = () => {
