@@ -15,24 +15,28 @@ const ImgSlider = (props) => {
     return (
         <Carousel {...settings}>
             <Wrap>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a>
                     <img src="/images/slider-badging.jpg" alt="" />
                 </a>
             </Wrap>
 
             <Wrap>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a>
                     <img src="/images/slider-scale.jpg" alt="" />
                 </a>
             </Wrap>
 
             <Wrap>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a>
                     <img src="/images/slider-badag.jpg" alt="" />
                 </a>
             </Wrap>
 
             <Wrap>
+                {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a>
                     <img src="/images/slider-scales.jpg" alt="" />
                 </a>
